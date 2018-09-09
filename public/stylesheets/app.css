@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://themify.me/demo/themes/parallax/files/2016/03/54497056-1024x685.jpg') ;
+    background-size : cover ; 
+}
+
+i.icon {
+       font-size: 2em ; 
+}
+
+.container.main {
+       margin-top : 7.0em ; 
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+    color : black ; 
+}
+
+#this > div {
+       padding: 10px ;
+}
+
+.jumbotron {
+    opacity: 0.8 ;
+    background : black  ;
+    color : white ;
+}
+
+img {
+    padding: 10px ;
+    border: 10px solid #46344E;
+    border-radius: 5px;
+}
