@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+       <div class="container">
+              <div class="jumbotron heading">
+                     <div class="text-center">
+                            <img class="ui centered circular" src="https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/404-error.png" alt="404 PAGE">
+                     </div>
+              </div>
+              <button class="ui secondary fluid ui button" id="gotoHome" style="border:white 2px solid;">CLICK HERE TO GOTO MAIN PAGE </button>
+       </div>
+
+       <script>
+              document.getElementById("gotoHome").onclick = function() {
+                     location.href = "/" ; 
+              }
+       </script>
+<% include ./partials/footer %>

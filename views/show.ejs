@@ -10,17 +10,24 @@
                             <div class="description">
                                    <h3><%= blog.body %></h3>
                             </div>
-                            <div class="container fluid">
+                            
+                     </div>
+                     <div class="container fluid">
                                    <div class="row">
-                                          <form class="col-md-2" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+                                          <form class="col-md-5 col-sm-12 twothing" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
                                                  <button class="ui secondary button">DELETE</button>
                                           </form>
-                                          <a class="ui secondary button" href="/blogs/<%= blog._id %>/edit"> EDIT </a>
+                                          <form class="col-md-6 col-sm-12 twothing" action="/blogs/<%= blog._id %>/edit">
+                                                 <button class="ui secondary button"> EDIT </button>
+                                          </form>
                                    </div>
                             </div>
-                     </div>
               </div>
        </div>
+
        <style>
+              .twothing {
+                     padding : 10px ;
+              }
        </style>
 <% include ./partials/footer %>

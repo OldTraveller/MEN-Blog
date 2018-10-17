@@ -123,7 +123,10 @@ app.get ( "/" , function( req , res ) {
        });
 });
 
-
+app.get( "*" , function ( req , res ) {
+	console.log ( "This 404 function is executing !! " ) ; 
+	res.render ( "404" ) ; 
+}) ; 
 
 
 app.listen( 3000 , function() {
